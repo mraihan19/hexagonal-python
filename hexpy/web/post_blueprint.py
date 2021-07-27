@@ -1,8 +1,8 @@
 import inject
 from flask import Blueprint, jsonify, Response, request
 
-from hex.domain.actions.get_post import GetPost
-from hex.domain.actions.search_posts import SearchPosts
+from hexpy.domain.actions.get_post import GetPost
+from hexpy.domain.actions.search_posts import SearchPosts
 
 
 @inject.autoparams()
